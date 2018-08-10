@@ -39,10 +39,10 @@ def reverse_array(array)
   array.reverse()
 end
 
-def keska_maker(array)
+def kesha_maker(array)
   newArray = []
   array.each{ |elem| 
-    strArray = elem.split("")
+    strArray = elem.split('')
     strArray[2] = "$"
     newArray << strArray.join()
   }
