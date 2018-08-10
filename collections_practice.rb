@@ -16,9 +16,9 @@ def sort_array_char_count(array)
     if item1.length == item2.length
       return 0
     elsif item1.length > item2.length
-      return 1
-    else
       return -1
+    else
+      return 1
     end
   }
 end
