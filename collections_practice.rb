@@ -52,3 +52,9 @@ end
 def find_a(array)
   array.select{|item| item.start_with?("a")}
 end
+
+def sum_array(array)
+  sum = 0
+  array.each{|item| sum += item}
+  return sum
+end
