@@ -24,7 +24,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.each{ |array, index|
+  array.each! { |array, index|
   if index == 1
     swap_elements_from_to(array, index, index + 1)
   end
