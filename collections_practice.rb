@@ -32,7 +32,7 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-  i = array[index]
-  array[index] = array[destination_index]
-  array[destination_index] = i
+  i = array[index], array[destination_index] = array[destination_index], array[index]
+  # array[index] = array[destination_index]
+  # array[destination_index] = i
 end
