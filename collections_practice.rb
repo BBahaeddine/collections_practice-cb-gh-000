@@ -26,11 +26,15 @@ end
 def swap_elements(array)
   array.each_with_index { |array, index|
   if index == 1
-    swap_elements_from_to(array, 1, 2)
+    swap_elements_from_to(array, index, index + 1)
   end
   }
 end
 
 def swap_elements_from_to(array, index, destination_index)
   array[index], array[destination_index] = array[destination_index], array[index]
+end
+
+def reverse_array(array)
+  array.reverse()
 end
