@@ -26,7 +26,8 @@ end
 def swap_elements(array)
   array.each_with_index { |array, index|
   if index == 1
-    swap_elements_from_to(array, index, index + 1)
+    array[index], array[index + 1] = array[index + 1], array[index]
+    # swap_elements_from_to(array, index, index + 1)
   end
   }
 end
