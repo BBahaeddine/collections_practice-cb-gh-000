@@ -58,3 +58,9 @@ def sum_array(array)
   array.each{|item| sum += item}
   return sum
 end
+
+def add_s(array)
+  array.each_with_index.collect{|item, index|
+    
+  }
+end
